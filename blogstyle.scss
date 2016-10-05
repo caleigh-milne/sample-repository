@@ -1,13 +1,20 @@
 @import "_profilecard";
+@import "_contactme";
 
 $blog-color: #524964;
-$blog-content: rgba(255, 255, 255, 0.6);
+$blog-text: #fff;
+$blog-month: #000;
+$bio-color: #A492AD;
 
+body {
+	font-size:100%;
+	font-weight: 600;
+}
 .blog {
 	display: flex;
 	flex-direction: column-reverse;
 	&-body{
-		background: $blog-color;
+		background: $bio-color;
 		padding: 0.3em 0.3em 1em 0.3em;
 		display: flex;
 		flex-direction: column-reverse;
@@ -17,7 +24,12 @@ $blog-content: rgba(255, 255, 255, 0.6);
 		justify-content: center;
 	}
 	&-content {
-		background: $blog-content;
+		padding: 1em;
+	}
+}
+
+@media only screen and (min-width: 30em) {
+	body {
 		margin: 0 20% 0 20%;
 	}
 }

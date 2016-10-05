@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>Caleigh Milne | Profile</title>
+	<title>Caleigh Milne | Contact Me</title>
 
 	<meta charset="utf-8">
 	<meta name="description" >
@@ -13,8 +13,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
 </head>
 <body role="document">
-<main role="main"
-	<div class="container">
+	<main class="main">
+		<div class="container">
 	  <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13557922_10157054832770142_6426106235634443688_n.jpg?oh=fa7d69e4f0e4427eb1b94da689107a73&oe=5874680B" alt="Caleigh Milne" />
 	  <div class="bio-container">
 	    <header class="bio-header">
@@ -33,6 +33,36 @@
 	    </div>
 	  </div>
 	</div>
-</main>
+		<div class="contactbody">
+			<form class="contactme">
+				<h1>Send Me A Message</h1>
+				<fieldset>
+					<legend>Contact Me</legend>
+					<p>* Required Fields</p>
+					<ul>
+						<li><label for="name">First and Last Name* </label></label>
+							<input required type="text" name="name" id="name" placeholder="John Smith"></li>
+						<li><label for="phone-number">Phone Number</label>
+							<input  type="tel" name="phone-number" id="phone-number" placeholder="(403) 201-1234"></li>
+						<li><label for="email-address">E-mail Address*</label>
+							<input required type="email" name="email-address" id="email-address" placeholder="name@domain.com"></li>
+						<li><label for="message">Message*</label><br>
+							<textarea required name="submit" id="message"></textarea></li>
+						<input type="submit" name="submit" id="message" value="send">
+					</ul>
+				</fieldset>
+			</form>
+			<div class="socialmedia">
+				<ul>
+					<li><a href="https://twitter.com/bramblerosie">Twitter</a></li>
+					<li><a href="https://github.com/caleigh-milne">Github</a></li>
+					<li><a href="http://codepen.io/caleigh-milne/">Codepen</a></li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<p>&copy; 2016 Caleigh Milne</p>
+	</footer>
 </body>
 </html>
