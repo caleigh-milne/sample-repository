@@ -1,0 +1,23 @@
+@import "_profilecard";
+
+$blog-color: #524964;
+$blog-content: rgba(255, 255, 255, 0.6);
+
+.blog {
+	display: flex;
+	flex-direction: column-reverse;
+	&-body{
+		background: $blog-color;
+		padding: 0.3em 0.3em 1em 0.3em;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	&-header {
+		display: flex;
+		justify-content: center;
+	}
+	&-content {
+		background: $blog-content;
+		margin: 0 20% 0 20%;
+	}
+}
